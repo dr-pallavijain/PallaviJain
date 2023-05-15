@@ -1,0 +1,7 @@
+// Rest parameter: Pack the elements into array
+function sum(...x)
+function sum(p,q,...x)//5,10 will go in p & q
+{
+console.log(x)
+}
+sum(5,10,'Rahul',23,2,5,67)

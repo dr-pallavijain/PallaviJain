@@ -1,0 +1,13 @@
+const first = [1,2,3];
+const second = [4,5,6,];
+
+//const combined = first.concat(second)
+// spread operator : Unpack the values
+console.log(...first)
+const combined = [...first,...second]
+
+console.log(combined)
+
+function dispaly(a,b,c)
+{ console.log(a,b,c)}
+dispaly(...first)
